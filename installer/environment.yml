@@ -1,0 +1,19 @@
+name: webscraping_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - beautifulsoup4
+  - selenium
+  - sqlalchemy
+  - psycopg2-binary
+  - unidecode
+  - pytz
+  - python-dotenv
+  - requests
+  - pip
+  - pip:
+      - structlog  # Only available via pip

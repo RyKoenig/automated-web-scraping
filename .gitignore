@@ -1,0 +1,8 @@
+.env
+
+__pycache__/
+
+# Ignore all log files
+snap_counts.log
+snap_counts.log.*
+*.log
