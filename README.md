@@ -106,7 +106,7 @@ Then add:
 ```bash
 Host webscrape_project
   HostName <LINODE_IP>
-  Port 22
+  Port 2223
   User rkoenig
 ```
 Now connect easily:
